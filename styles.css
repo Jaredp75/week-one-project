@@ -66,7 +66,7 @@ table {
 
 
 body{
-    font-family: "Roboto";
+    font-family: 'Roboto';
     line-height: 1.8;
     margin: 0;
     background-color: #F2F1E8;
@@ -74,25 +74,28 @@ body{
     height: 800px;
 }
 
-/*html, body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: green;*/
+
 }
 
-#container {
-    width: inherit;
+.container {
+    width: 980px;
     height: inherit;
     margin: 0;
     padding: 0;
-    background-color: pink;
+    float: inherit;
+}
+
+.img {
+  float:left;
+}
+
 }
 
 h1 {
-    margin: 0;
-    padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -194,6 +197,21 @@ img{
 
 
 
-table {
-  border-style: solid;
-}
+
+
+
+
+
+
+
+
+
+/*#site-footer {
+  background: #333;
+  display: flex;
+  color: white;
+  flex-direction: column-reverse;
+  width: 1000px;
+  text-align: right;
+
+}*/
