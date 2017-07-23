@@ -62,10 +62,70 @@ table {
 
 
 
+body {
+	background-color: #F2F1E8;
+	font-family: "Roboto", sans-serif;
+	position: relative;
+	margin: 0;
+	min-height: 100%;
 
 
 
-body{
+}
+
+
+h1, h2, h3 {
+	font-weight: bold;
+	position: relative;
+	text-align: center;
+}
+
+
+
+
+
+/*<!-- Submit button -->*/
+
+label, input{
+    display: block;
+}
+
+
+
+#submit{
+    padding: 10px 15px;
+    background: #968772;
+    border: none;
+    outline: none;
+    margin: none;
+    text-align: center;
+    color: #F2F1E8;
+}
+#submit:hover{
+    color: #967343;
+}
+
+
+
+
+.footer {
+  position: inherit;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #F2F1E8;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+/*body{
     font-family: 'Roboto';
     line-height: 1.8;
     margin: 0;
