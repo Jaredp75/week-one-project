@@ -68,13 +68,16 @@ body {
 	position: relative;
 	margin: 0;
 	min-height: 100%;
+	line-height: normal;
+	width: auto;
+	height: auto;
 
 
 
 }
 
 
-h1, h2, h3 {
+h1 {
 	font-weight: bold;
 	position: relative;
 	text-align: center;
@@ -90,8 +93,6 @@ label, input{
     display: block;
 }
 
-
-
 #submit{
     padding: 10px 15px;
     background: #968772;
@@ -101,13 +102,14 @@ label, input{
     text-align: center;
     color: #F2F1E8;
 }
+
 #submit:hover{
     color: #967343;
 }
 
 
 
-
+/*<!-- Footer -->*/
 .footer {
   position: inherit;
   right: 0;
