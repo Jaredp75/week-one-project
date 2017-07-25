@@ -3,62 +3,72 @@
   <head>
     <meta charset="UTF-8">
     <title>Bent Creek Ceramics - Newsletter</title>
-
       <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet";>
       <link rel="stylesheet" type="text/css" href="styles.css">
-
-
   </head>
-  <body>
+    <body>
+      <img src="/Users/jerusmacbook/Documents/Projects/week-one-project/images/bent-creek-logo.png" alt="Bent Creek Ceramics Logo">
 
-    <img src="/Users/jerusmacbook/Documents/Projects/week-one-project/images/bent-creek-logo.png" alt="Bent Creek Ceramics Logo">
+        <div class="wrapper">
+          <header id="site-header" class="body">
+            <nav id="main-navigation">
+              <a href="index.html">HOME</a>
+              <a href="about.html">ABOUT</a>
+              <a href="newsletter.html">NEWSLETTER</a>
+            </nav>
+          </header>
+        </div>
 
-  <div class="wrapper">
+          <body background="/Users/jerusmacbook/Documents/Projects/week-one-project/images/background-2.jpg">
 
-      <header id="site-header" class="body">
-          <nav id="main-navigation">
-              <a href="index.html">Home</a>
-              <a href="about.html">About</a>
-              <a href="newsletter.html">Newsletter</a>
-          </nav>
-      </header>
-  </div>
-
-      <body background="/Users/jerusmacbook/Documents/Projects/week-one-project/images/background-2.jpg">
-
-  <div id="container">
+        <div id="container">
           <h1>Sign Up for Our Weekly Newsletter</h1>
 
           <p>Stay up to date with events, activities, news and specials.</p>
 
           <form action="./process_form_data.php" method="post">
-                  <label for="name">Name:</label>
-                  <input type="text" name="name" id="name">
-              </form>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name">
+          </form>
 
-              <form>
-                  <label for="email">Email:</label>
-                  <input type="email" name="email" id="email">
-              </form>
+          <form>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+          </form>
+        </div>
+        <div>
+            <button type="submit" id="submit">Submit</button>
+        </div>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+        <div>
+            <div class="footer">Copyright 2017, Bent Creek Ceramics>
+        </div>
 
-              <button type="submit" id="submit">Submit</button>
-  </div>
-
-
-  <div class="footer">Copyright 2017, Bent Creek Ceramics</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <script type="text/javascript">
+          var nameInput = document.getElementById('nameInput');
+          var emailInput = document.getElementById('emailInput');
+          var signupButton = document.getElementById('signupButton');
+          signupButton.addEventListener('click', function(e) {
+            var nameVal = nameInput.value;
+            var emailVal = emailInput.value;
+            if (nameVal && emailVal) {
+              alert('Thanks for signing up, ' + nameVal + '. Newsletters will be sent to ' + emailVal);
+              nameInput.value = "";
+              emailInput.value = "";
+            } else {
+              alert('We would love for you to sign up, please provide both your name and email address.');
+            }
+          });
+        </script>
 
 
 

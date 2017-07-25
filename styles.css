@@ -66,22 +66,66 @@ body {
 	background-color: #F2F1E8;
 	font-family: "Roboto", sans-serif;
 	position: relative;
-	margin: 0;
+	margin-left: 20px;
+	margin-right: 20px;
 	min-height: 100%;
-	line-height: normal;
+	line-height: 1.5;
 	width: auto;
 	height: auto;
-
-
+	padding: 150px;
 
 }
+
+
+.wrapper {
+	font-family: "Roboto", sans-serif;
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+}
+
+.img {
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+
+
 
 
 h1 {
 	font-weight: bold;
 	position: relative;
 	text-align: center;
+	font-size: 50px;
 }
+
+
+
+h1, h2, h3{
+    font-family: "Roboto", sans-serif;
+		font-weight: bold;
+    /*margin-top: 0;*/
+
+}
+
+
+h1, h3 {
+	text-align: center;
+	font-weight: bold;
+}
+
+
+
+
+
+
+.blockquote {
+	display: flex;
+	justify-content: center;
+	font-style: italic;
+}
+
 
 
 
@@ -91,6 +135,7 @@ h1 {
 
 label, input{
     display: block;
+		
 }
 
 #submit{
@@ -106,6 +151,11 @@ label, input{
 #submit:hover{
     color: #967343;
 }
+
+
+
+
+
 
 
 
@@ -125,11 +175,26 @@ label, input{
 /*<1-- Table -->*/
 table {
     border-collapse: collapse;
+
 }
 
 table, th, td {
     border: 1px solid black;
+		padding: 10px;
+
 }
+
+
+tr.t2 td {
+	background-color: rgb(241, 234, 221);
+	color: black;
+}
+
+tr.t4 td {
+	background-color: rgb(241, 234, 221);
+	color: black;
+}
+
 
 
 
