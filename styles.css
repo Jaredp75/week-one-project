@@ -75,29 +75,33 @@ body {
 	line-height: 1.5;
 	width: 100%;
 	height: 100%;
-	padding: 150px;
-	/*margin-bottom: 50px;*/
+	padding: 120px;
+	margin-bottom: 50px;
+	/*display: flex;*/
+	/*flex-direction: column;*/
+	/*justify-content: center;*/
 
 
 }
 
 
-logo {
+/*logo {
 	width: 50%;
 	height: 50%;
-}
+}*/
 
 
 
 .wrapper {
 	font-family: "Roboto", sans-serif;
-	/*display: block;*/
+	display: block;
 	text-align: center;
-	/*justify-content: center;*/
+	justify-content: center;
 	background-color: #FFFFFF;
 	color: #2B2F26
 	padding: 2000px;
 	margin: 20px;
+	height: 100px;
 }
 
 
@@ -192,14 +196,17 @@ label, input{
 /*<!-- Footer -->*/
 .footer {
   position: relative;
-	top: 0;
-  right: 0;
+	/*top: 0;*/
+  /*right: 0;*/
   bottom: 0;
-  left: 0;
+  /*left: 0;*/
+	width: 100%;
   padding: 1rem;
   background-color: black;
 	color: white;
   text-align: center;
+	display: flex;
+
 }
 
 /*#site-footer {
@@ -355,7 +362,6 @@ div.desc {
 
 
 
-/*<!-- New Newsletter CSS -->*/
 
 .newsletter-pg {
     background: url(project-files/optimized/background-2.jpg);
@@ -371,9 +377,9 @@ div.desc {
 .form-box {
     position: absolute;
     background-color: #F2F1E8;
-    margin-top: 200px;
-    width: 60vw;
-    height: 60vh;
+    margin-top: 75px;
+    width: 80vw;
+    height: 80vh;
     transition-delay: .15s;
     overflow: scroll;
 }
@@ -396,7 +402,15 @@ div.desc {
     margin-top: 8vh;
     padding-bottom: 1vh;
 }
-.line-one input,
+.line-one input {
+			font-size: 3vh;
+			padding-left: 2%;
+			width: 75%;
+			outline: none;
+			border: none;
+			background-color: transparent;
+			overflow: auto;
+}
 .line-two input {
     font-size: 3vh;
     padding-left: 2%;
@@ -411,9 +425,12 @@ div.desc {
     text-align: center;
     bottom: -10vh;
     margin-bottom: 10%;
+
 }
-
-
+/*.submit:hover{
+    color: #968772;
+}
+*/
 
 
 
